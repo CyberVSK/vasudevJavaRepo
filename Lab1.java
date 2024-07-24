@@ -18,16 +18,16 @@ public class Lab1{
 
 
         // 3) if statements
-        // int temp=30;
-        // if(temp<20){
-        //     System.out.println("cold");
-        // }
-        // else if(temp>=20 & temp<=30){
-        //     System.out.println("optimal");
-        // }
-        // else{
-        //     System.out.println("hot");
-        // }
+        int temp=30;
+        if(temp<20){
+            System.out.println("cold");
+        }
+        else if(temp>=20 & temp<=30){
+            System.out.println("normal");
+        }
+        else{
+            System.out.println("hot");
+        }
 
 
 
