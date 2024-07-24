@@ -1,12 +1,5 @@
 import java.util.Scanner;
-// public class Lab3{
-//     public static void main(String[] args){
-//         // 1) using char datatype
-//         char[] helloArray={'h','e','l','l','o'};
-//         String helloString=new String(helloArray);
-//         System.out.println(helloString);
-//     }
-// }
+
 
 public class Lab3{
     public void menu(){
@@ -14,7 +7,7 @@ public class Lab3{
     }
     public static void main(String[] args){
         //calculator
-        System.out.println("|||||||||Calculator|||||||||")
+        System.out.println("|||||||||Calculator|||||||||");
         float num1,num2,total=0;
         
         int choice;

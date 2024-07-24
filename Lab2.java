@@ -73,5 +73,11 @@
 //public static void main(String[] args){
 //String txt="Please locate where 'locate' occurs!";
 //System.out.println(txt.indexOf("locate"));
+
+// 9) using char datatype
+//char[] helloArray={'h','e','l','l','o'};
+//String helloString=new String(helloArray);
+//System.out.println(helloString);
+
 //}
 //}
