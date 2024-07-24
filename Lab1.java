@@ -8,7 +8,7 @@ public class Lab1{
         
 
 
-        // 2) Evaluating biilean expression
+        // 2) Evaluating boolean expression
         // int x=10;
         // int y=9;
         // System.out.println(x>y);
@@ -86,7 +86,7 @@ public class Lab1{
 
 
         // 7) for loop
-        // for(;;){ //this also valid, infinite loop
+        // for(int i=0;i<5;i++){ //this also valid, infinite loop
         //     System.out.println(i);
         // }
         
@@ -95,8 +95,6 @@ public class Lab1{
         // 8) for each loop
         // int arr[]={1,2,3,4,5,6};
         // for(int i:arr){
-        //     if(i==2){continue;}
-        //     else if(i==5){break;}
         //     System.out.println(i); 
         // }
 
@@ -104,6 +102,8 @@ public class Lab1{
         // for(int i=0;i<10;i++){
         //     if(i==4){
         //         continue;
+        //     }
+        //     else{
         //         System.out.println(i);
         //     }
         // }
@@ -115,7 +115,6 @@ public class Lab1{
         // System.out.println("Enter username: ");
         // String userName=obj.nextLine();
         // System.out.println("The username is: "+userName);
-        
 
         
     }
