@@ -100,9 +100,17 @@ public class Lab1{
         //     System.out.println(i); 
         // }
 
+        // 9) continue statement
+        // for(int i=0;i<10;i++){
+        //     if(i==4){
+        //         continue;
+        //         System.out.println(i);
+        //     }
+        // }
+
         
 
-        // Using Scanner object to get input
+        // 10) Using Scanner object
         // Scanner obj=new Scanner(System.in);
         // System.out.println("Enter username: ");
         // String userName=obj.nextLine();
