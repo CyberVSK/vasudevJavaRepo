@@ -1,0 +1,77 @@
+//1) automatic type casting
+//public class Lab2
+//{
+//public static void main(String[] args)
+//{
+//final int myInt=15;
+//double myDouble=myInt;//Automatic casting of int to double
+//System.out.print("myInt: "+myInt+"\n");
+//System.out.print("myDouble: "+myDouble+"\n");
+//}
+//}
+
+//2)Type casting
+//public class Lab2{
+//public static void main(String[] args){
+//double mydouble=4.56d;
+//int num=(int)mydouble;
+//System.out.println(mydouble);
+//System.out.println(" "+num);
+//}
+//}
+
+//3) + operator
+//to add numbers
+//public class Lab2{
+//public static void main(String[] args){
+//int sum1=23;
+//int sum2=sum1+5;
+//int sum3=sum1+sum2;
+//System.out.println(sum3);
+//}
+//}
+
+// 4) to add strings
+//public class Lab2{
+//public static void main(String[] args){
+//String s1="one";
+//String s2="two";
+//String s3=s1+s2;
+//System.out.println(s3);
+
+// 5) Ternary operator
+//public class Lab2{
+//public static void main(String[] args){
+//int x,y;
+//x=30;
+//y=(x==1)?61:90;
+//System.out.println(y+"  ");
+//y=(x==30)?61:90;
+//System.out.println(y);
+//}
+//}
+
+// 6) lenght of a string
+//public class Lab2{
+//public static void main(String[] args){
+//String txt="ABCDEFGHIJK";
+//System.out.println("length of the string is:"+txt.length());
+//}
+//}
+
+// 7) convert string to upper and lower case
+//public class Lab2{
+//public static void main(String[] args){
+//String txt="abcd";
+//System.out.println(txt.toUpperCase());
+//System.out.println(txt.toLowerCase());
+//}
+//}
+
+// 8) indexOf method
+//public class Lab2{
+//public static void main(String[] args){
+//String txt="Please locate where 'locate' occurs!";
+//System.out.println(txt.indexOf("locate"));
+//}
+//}
