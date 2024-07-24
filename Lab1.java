@@ -8,7 +8,7 @@ public class Lab1{
         
 
 
-        // 2) printing boolean values by evaluating expressions
+        // 2) Evaluating biilean expression
         // int x=10;
         // int y=9;
         // System.out.println(x>y);
