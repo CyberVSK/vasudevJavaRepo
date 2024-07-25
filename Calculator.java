@@ -15,7 +15,8 @@ public class Calculator{
         Scanner obj=new Scanner(System.in);
         num=obj.nextFloat();
         total=num;
-        while(true){   
+        while(true){
+            menu();
             System.out.println("Enter choice: ");
             choice=obj.nextInt();
             if(choice==5){
