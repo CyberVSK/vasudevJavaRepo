@@ -1,4 +1,4 @@
-//1) automatic type casting
+// 1) Automatic type casting
 //public class Lab2
 //{
 //public static void main(String[] args)
@@ -10,7 +10,7 @@
 //}
 //}
 
-//2)Type casting
+// 2) Explicit Type casting
 //public class Lab2{
 //public static void main(String[] args){
 //double mydouble=4.56d;
@@ -20,7 +20,17 @@
 //}
 //}
 
-//3) + operator
+// 3) Final keyword
+//public class Lab2
+//{
+//public static void main(String[] args)
+//{
+//final int myInt=15;
+//System.out.print("myInt: "+myInt+"\n");
+//}
+//}
+
+// 4) + operator
 //to add numbers
 //public class Lab2{
 //public static void main(String[] args){
@@ -31,7 +41,7 @@
 //}
 //}
 
-// 4) to add strings
+// 5) to add strings
 //public class Lab2{
 //public static void main(String[] args){
 //String s1="one";
@@ -39,7 +49,7 @@
 //String s3=s1+s2;
 //System.out.println(s3);
 
-// 5) Ternary operator
+// 6) Ternary operator
 //public class Lab2{
 //public static void main(String[] args){
 //int x,y;
@@ -51,7 +61,7 @@
 //}
 //}
 
-// 6) lenght of a string
+// 7) lenght of a string
 //public class Lab2{
 //public static void main(String[] args){
 //String txt="ABCDEFGHIJK";
@@ -59,7 +69,7 @@
 //}
 //}
 
-// 7) convert string to upper and lower case
+// 8) convert string to upper and lower case
 //public class Lab2{
 //public static void main(String[] args){
 //String txt="abcd";
@@ -68,16 +78,15 @@
 //}
 //}
 
-// 8) indexOf method
+// 9) indexOf method
 //public class Lab2{
 //public static void main(String[] args){
 //String txt="Please locate where 'locate' occurs!";
 //System.out.println(txt.indexOf("locate"));
 
-// 9) using char datatype
+// 10) using char datatype
 //char[] helloArray={'h','e','l','l','o'};
 //String helloString=new String(helloArray);
 //System.out.println(helloString);
-
 //}
 //}
