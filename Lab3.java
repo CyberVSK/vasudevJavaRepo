@@ -1,11 +1,11 @@
 public class Lab3{
     public static void main(String[] args){
-        // 1) Concatination of two strings
+        // 1) Concatenation of two strings
         // String firstName="John";
         // String lastName="Doe";
         // System.out.println(firstName.concat(lastName));
 
-        // 2) Implicit convertion of string to integer
+        // 2) Concatenating number and string
         // String x="10";
         // int y=20;
         // String z=x+y;
