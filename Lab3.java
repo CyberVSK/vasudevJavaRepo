@@ -1,4 +1,4 @@
-public class Test{
+public class Lab3{
     public static void main(String[] args){
         // 1) Concatination of two strings
         // String firstName="John";
