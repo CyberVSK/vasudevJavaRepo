@@ -1,5 +1,4 @@
-import java.util.Scanner;
-public class Lab1{
+public class Week1{
     public static void main(String[] args){
         // 1) Boolean literals in java
         // boolean a=true;
@@ -66,8 +65,6 @@ public class Lab1{
 
 
 
-
-
         // 5) while loop
         // int i=0;
         // while (i<10){
@@ -98,6 +95,8 @@ public class Lab1{
         //     System.out.println(i); 
         // }
 
+
+
         // 9) continue statement
         // for(int i=0;i<10;i++){
         //     if(i==4){
@@ -108,14 +107,64 @@ public class Lab1{
         //     }
         // }
 
-        
-
-        // 10) Using Scanner object
-        // Scanner obj=new Scanner(System.in);
-        // System.out.println("Enter username: ");
-        // String userName=obj.nextLine();
-        // System.out.println("The username is: "+userName);
 
         
+        // 10) Automatic type casting
+        // final int myInt=15;
+        // double myDouble=myInt;//Automatic casting of int to double
+        // System.out.print("myInt: "+myInt+"\n");
+        // System.out.print("myDouble: "+myDouble+"\n");
+
+
+        // 11) Explicit type casting
+        // double mydouble=4.56d;
+        // int num=(int)mydouble;
+        // System.out.println(mydouble);
+        // System.out.println(" "+num);
+
+
+
+        // 12) Final keyword
+        // final int myInt=15;
+        // System.out.print("myInt: "+myInt+"\n");
+
+
+        // 13) + operator to add numbers
+        // int sum1=23;
+        // int sum2=sum1+5;
+        // int sum3=sum1+sum2;
+        // System.out.println(sum3);
+
+
+        // 14) + operator to add strings
+        // String s1="one";
+        // String s2="two";
+        // String s3=s1+s2;
+        // System.out.println(s3);
+
+
+        // 15) Ternary operator
+        // int x,y;
+        // x=30;
+        // y=(x==1)?61:90;
+        // System.out.println(y+"  ");
+        // y=(x==30)?61:90;
+        // System.out.println(y);
+
+
+        // 16) Lenght of a string
+        // String txt="ABCDEFGHIJK";
+        // System.out.println("length of the string
+
+
+        // 17) Convert string to upper and lower case
+        // String txt="abcd";
+        // System.out.println(txt.toUpperCase());
+        // System.out.println(txt.toLowerCase());
+
+
+        // 18) indexOf method
+        // String txt="Please locate where 'locate' occurs!";
+        // System.out.println(txt.indexOf("locate"));
     }
 }
