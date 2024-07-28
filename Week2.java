@@ -1,30 +1,31 @@
 import java.util.Scanner;
 public class Week2{
     public static void main(String[] args){
+        // 1) char data type 
         // char[] helloArray={'h','e','l','l','o'};
         // String helloString=new String(helloArray);
         // System.out.println(helloString);
         
         
-        // 1) Concatenation of two strings
+        // 2) Concatenation of two strings
         // String firstName="John";
         // String lastName="Doe";
         // System.out.println(firstName.concat(lastName));
 
 
-        // 2) Concatenating number and string
+        // 3) Concatenating number and string
         // String x="10";
         // int y=20;
         // String z=x+y;
         // System.out.println(z);
 
 
-        // 3) Using backslash in string
+        // 4) Using backslash in string
         // String txt="these are some uses of \"backshlash\".";
         // System.out.println(txt);
 
 
-        // 4) Maths functions in java
+        // 5) Maths functions in java
         // System.out.println(Math.max(5,10));
         // System.out.println(Math.min(5,10));
         // System.out.println(Math.sqrt(128));
@@ -32,14 +33,14 @@ public class Week2{
         // System.out.println(Math.random());
 
 
-        // 5) Using Scanner object
+        // 6) Using Scanner object
         // Scanner obj=new Scanner(System.in);
         // System.out.println("Enter username: ");
         // String userName=obj.nextLine();
         // System.out.println("The username is: "+userName);
 
 
-        // 6) Calculator program
+        // 7) Calculator program
         // System.out.println("|||||||||Calculator|||||||||\n");
         // float num,total=0;
         // int choice=0;
