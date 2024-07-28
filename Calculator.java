@@ -2,12 +2,11 @@ import java.util.Scanner;
 
 public class Calculator{
     public static void menu(){
-        System.out.println("1)add\n2)subtract\n3)divide\n4)multiply\n5)exit");
+        System.out.println("1)add 2)subtract 3)divide 4)multiply 5)exit");
     }
     public static void main(String[] args){
         //calculator
-        System.out.println("|||||||||Calculator|||||||||");
-        menu();
+        System.out.println("|||||||||Calculator|||||||||\n");
         float num,total=0;
         int choice=0;
 
@@ -50,7 +49,7 @@ public class Calculator{
                 total*=num;
                 break;
             }
-            System.out.println("The output is: "+total);            
+            System.out.println("The resultant is: "+total);            
         }
     }
 }
