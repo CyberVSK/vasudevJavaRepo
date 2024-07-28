@@ -16,7 +16,7 @@ public class Calculator{
         total=num;
         while(true){
             menu();
-            System.out.println("Enter choice: ");
+            System.out.print("Enter choice: ");
             choice=obj.nextInt();
             if(choice==5){
                 System.out.println("Exiting...");
