@@ -49,23 +49,21 @@ public class Week3 {
 //         System.out.print("Enter length of side of the square: ");
 //         num=scan.nextInt();
 //         int height;
-//         if(num%2!=0){
-//                 height=(num+1)/2;
-//         }
-//         else{
-//                 height=num/2;
-//         }
-//         for(int i=0;i<height;i++){
-//             if(i==0 || i==height-1){
+        
+//         for(int i=0;i<num;i++){
+//             if(i==0 || i==num-1){
 //                 for(int j=0;j<num;j++){
-//                     System.out.print("*");
+//                     System.out.print("* ");
 //                 }
 //                 System.out.print("\n");
 //             }
 //             else{
 //                 for(int j=0;j<num;j++){
 //                     if(j>0 && j<num-1){
-//                         System.out.print(" ");
+//                         System.out.print("  ");
+//                     }
+//                     else if(j==num-1){
+//                         System.out.print(" *");
 //                     }
 //                     else{
 //                         System.out.print("*");
