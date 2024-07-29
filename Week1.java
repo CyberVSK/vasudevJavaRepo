@@ -154,7 +154,7 @@ public class Week1{
 
         // 16) Lenght of a string
         // String txt="ABCDEFGHIJK";
-        // System.out.println("length of the string
+        // System.out.println("length of the string is: "+txt.length());
 
 
         // 17) Convert string to upper and lower case
