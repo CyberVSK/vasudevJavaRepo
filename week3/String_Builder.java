@@ -1,4 +1,4 @@
-public class String_Buffer{
+public class String_Builder{
     public static void main(String[] args){
         // 1) append() method
         // StringBuilder sb=new StringBuilder("Hello");
@@ -6,7 +6,7 @@ public class String_Buffer{
         // System.out.println(sb);//prints Hello Java
 
 
-        // 2) insert() method in 
+        // 2) insert() method 
         // StringBuilder sb=new StringBuilder("Hello");
         // sb.insert(1,"Java");// now original string is changed
         // System.out.println(sb);//prints HJavaello
@@ -40,15 +40,15 @@ public class String_Buffer{
 
 
         // 7) ensureCapacity() method 
-        // StringBuilder sb=new StringBuilder();
-        // System.out.println(sb.capacity());// default 16
-        // sb.append("Hello");
-        // System.out.println(sb.capacity());//now 16
-        // sb.append("Java is my favourite language");
-        // System.out.println(sb.capacity());//now (16*2)+2=34 i.e (old capacity*2)+2
-        // sb.ensureCapacity(10);//now no change
-        // System.out.println(sb.capacity());//now 34
-        // sb.ensureCapacity(50);//now (34*2)+2=70
-        // System.out.println(sb.capacity());
+        StringBuilder sb=new StringBuilder();
+        System.out.println(sb.capacity());// default 16
+        sb.append("Hello");
+        System.out.println(sb.capacity());//now 16
+        sb.append("Java is my favourite language");
+        System.out.println(sb.capacity());//now (16*2)+2=34 i.e (old capacity*2)+2
+        sb.ensureCapacity(10);//now no change
+        System.out.println(sb.capacity());//now 34
+        sb.ensureCapacity(50);//now (34*2)+2=70
+        System.out.println(sb.capacity());
     }
 }
